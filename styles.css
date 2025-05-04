@@ -1,0 +1,150 @@
+html {
+    font-size: 1.2em;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgb(50, 50, 50);
+    background-color: whitesmoke;
+}
+
+h1, h2, h3, h4 {
+
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+
+h2 {
+    font-size: 1.6rem;
+    margin-top: 24px;
+    margin-bottom: 18px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+p {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+figure {
+    margin: 0 0 0 0;
+}
+
+img {
+    width: 100%;
+}
+
+.wichtig {
+    color: rgb(255, 79, 20);
+}
+
+.fett {
+    font-weight: bold;
+}
+
+.blau {
+    color: rgb(0, 59, 207);
+}
+
+.button-style {
+
+    color: rgb(27, 27, 157);
+    background-color: rgb(212, 212, 255);
+    border: 1px solid rgb(27, 27, 157);
+    border-radius: 10px;
+    display: inline-block;
+    padding: 9px;
+    margin: 20px 9px 6px 0;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.button-style:hover {
+
+    color: rgb(212, 212, 255);
+    background-color: rgb(27, 27, 157);
+    cursor: pointer;
+}
+
+.button-klein {
+
+    padding: 6px;
+    margin: 6px 9px 9px 0;
+    font-size: 0.8rem;
+
+}
+
+label {
+    display: block;
+    margin-top: 9px;
+    margin-bottom: 2px;
+}
+
+.eingabe {
+    display: block;
+    width: 50%;
+    font-size: 1rem;
+    background-color: white;
+    border: 1px solid rgb(174, 174, 174);
+    border-radius: 6px;
+    padding: 3px 8px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.textfeld {
+    height: 100px;
+    font-size: 1rem;
+}
+
+.checkbox {
+    display: block;
+    font-size: 1rem;
+}
+
+.eingabe-datei {
+
+    background-color: rgb(235, 235, 235);
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.filmliste {
+
+    list-style-type: none;
+    padding: 0;    
+}
+
+.filmliste h3 {
+
+    margin-top: 6px;
+    margin-bottom: 0;
+    font-size: 1.1rem;
+}
+
+#main, #header {
+
+    max-width: 1200px;
+    margin: auto;
+    background-color: rgb(235, 235, 235);
+    padding: 24px 32px;
+}
+
+#header {
+    background-color: rgb(163, 232, 251);
+}
+
+#main {
+    min-height: 600px;
+}
